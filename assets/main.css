@@ -3,8 +3,12 @@ body {
   color: #444;
   font-size: 14px;
   font-feature-settings: "liga", "kern";
-  background: #fff;
+  background: #f1f1f1;
   overflow-x: hidden; }
+
+a, a:link, a:focus, a:active, a:hover {
+  text-decoration: none;
+  outline: none; }
 
 .navbar-default {
   background: #fff;
@@ -55,3 +59,36 @@ canvas.particles-js-canvas-el {
   top: 160px;
   font-weight: 300;
   font-size: 19px; }
+
+ul.post-list {
+  list-style: none;
+  padding: 0; }
+
+ul.post-list li {
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 3px 0px #9999993b; }
+
+ul.post-list a {
+  color: #e22730;
+  font-size: 30px;
+  font-weight: 300;
+  display: block;
+  line-height: 80px;
+  padding: 0 20px; }
+
+ul.post-list span {
+  color: #e6e6e6;
+  position: absolute;
+  right: 20px;
+  font-size: 32px;
+  line-height: 80px; }
+
+ul.post-list h2 {
+  margin: 0; }
+
+footer.site-footer {
+  background: #fff;
+  padding: 20px 0; }
